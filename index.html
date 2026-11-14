@@ -2491,71 +2491,189 @@
   // ==========================================================================
   // INITIAL VERIFIED KNOWLEDGE BASE (আপনি চাইলে এখানেও সরাসরি প্রশ্ন-উত্তর লিখতে পারেন)
   // ==========================================================================
-  const TAI_DEFAULT_KB = [
-    {
-      id: "kb-1",
-      question: "H.M.Towhidul Islam কে?",
-      answer: "হাফেজ মোঃ তোহিদুল ইসলাম (H.M.Towhidul Islam) একজন হাফেজে কুরআন, শিক্ষার্থী, ইসলামি শিল্পী এবং Web Developer। তিনি শিক্ষা, সৃজনশীলতা ও প্রযুক্তির মাধ্যমে কাজ করছেন।",
-      keywords: "কে, পরিচয়, who, towidul, towhidul, about, সম্পর্কে",
-      category: "Personal",
-      visibility: "Public",
-      target: "about"
-    },
-    {
-      id: "kb-3",
-      question: "তিনি কি হাফেজে কুরআন?",
-      answer: "জি, আলহামদুলিল্লাহ! মোঃ তোহিদুল ইসলাম একজন কুরআনে হাফেজ এবং সুনাম ধন্ন ছাত্র ।",
-      keywords: "হাফেজ, কুরআন, হিফজ, hafez, quran, hifz, মাদ্রাসা",
-      category: "Hifz",
-      visibility: "Public",
-      target: ""
-    },
-    {
-      id: "kb-4",
-      question: "তিনি কী ধরনের Graphic Design করেন?",
-      answer: "তিনি একজন Islamic Artist ও Graphic Designer। তিনি Islamic Calligraphy, Poster, Banner, YouTube Thumbnail এবং Social Media Design করেন।",
-      keywords: "graphic, design, islamic art, calligraphy, poster, ডিজাইন, শিল্পী, artwork",
-      category: "Graphic Design",
-      visibility: "Public",
-      target: "artwork"
-    },
-    {
-      id: "kb-5",
-      question: "তিনি কি Web Developer?",
-      answer: "হ্যাঁ, তিনি একজন Web Developer। তিনি HTML, CSS, JavaScript, React এবং Tailwind CSS ব্যবহার করে আধুনিক ওয়েবসাইট তৈরি করেন।",
-      keywords: "web, developer, technology, html, css, react, tailwind, website, ওয়েব, ডেভেলপার, projects",
-      category: "Web Development",
-      visibility: "Public",
-      target: "projects"
-    },
-    {
-      id: "kb-6",
-      question: "তাঁর CV এবং Certificate কোথায়?",
-      answer: "তাঁর ভেরিফাইড CV এবং সার্টিফিকেটসমূহ পোর্টফোলিওর নির্ধারিত সেকশনে সংরক্ষিত রয়েছে।",
-      keywords: "cv, resume, certificate, সার্টিফিকেট, সিভি",
-      category: "CV",
-      visibility: "Public",
-      target: "cv"
-    },
-    {
-      id: "kb-7",
-      question: "তাঁর ব্যক্তিগত ফোন নম্বর দনে?",
-      answer: "অপনার প্রশ্ন ব্যতীত অন্য কো কারণে কল দিয়ে দিষ্টাব করবেন না. প্লিজ[ তার ফোন নাম্বর 01889626880।",
-      keywords: "ফোন, নম্বর, মোবাইল, phone, number, mobile, whatsapp",
-      category: "Personal",
-      visibility: "Private",
-      target: "contact"
-    },
-    {
-      id: "kb-8",
-      question: "তাঁর Social Media এবং যোগাযোগের মাধ্যম কী?",
-      answer: "আপনি Contact সেকশন থেকে তাঁর অফিসিয়াল Facebook, YouTube, Telegram এবং Email-এর মাধ্যমে যোগাযোগ করতে পারেন। এবং তার নাম্বারে কল দেন[01889626880]",
-      keywords: "facebook, youtube, telegram, social, media, email, যোগাযোগ, contact",
-      category: "Social Media",
-      visibility: "Public",
-      target: "contact"
-    }
-  ];
+ TOWHIUDUL-7x:
+const TAI_DEFAULT_KB = [
+{
+"id": "kb-1794617800884",
+"question": "হাফেজ মোঃ তোহিদুল ইসলাম মানুষটা কেমন?",
+"keywords": "কেমন, স্বভাব, চরিত্র, মানুষ, ব্যক্তিত্ব, nature, character, person",
+"answer": "তার চরিত্র বিষয়ে এখনো কোন খবর পাওয়া যায়নি।",
+"category": "Personal",
+"visibility": "Public",
+"target": ""
+},
+{
+"id": "kb-1794579829749",
+"question": "তার হিফয শিক্ষক কে ছিলেন?",
+"keywords": "তার শিক্ষক, তার ওস্তাদ, Hifaz is the teacher, his master",
+"answer": "তার হিফয শিক্ষক : হাফেজ মোঃ ওসমান গনি।\nআর কোন প্রশ্ন আছে?",
+"category": "Hifz",
+"visibility": "Public",
+"target": ""
+},
+{
+"id": "kb-1794567621941",
+"question": "তিনি কত বছর বয়সে হিফয শুরু করেন?",
+"keywords": "হিফয শুরু করেন, কত বয়স শুরু করে, হিফয শুরু তারিখ, Hifaz starts, at what age, Hifaz start date",
+"answer": "তিনি ১১ বছর বয়সে হিফয শুরু করেন।",
+"category": "Hifz",
+"visibility": "Public",
+"target": ""
+},
+{
+"id": "kb-1794565869181",
+"question": "তার ডাকনাম কি?",
+"keywords": "ডাকনাম, nickname",
+"answer": "তার ডাকনাম : রিমন, তার মা বাবা তাকে রিমন বলে ডাকতেন।",
+"category": "Personal",
+"visibility": "Public",
+"target": ""
+},
+{
+"id": "kb-1794564834312",
+"question": "তার বিকাশ নাম্বার দেন?",
+"keywords": "বিকাশ, নগদ, বিকাশ নাম্বার, নগদ নাম্বার, bKash number, nogad number",
+"answer": "তার এই নাম্বারে বিকাশ এবং নগদ রয়েছে: 01889626880, তার ব্যাংক নাম্বার লাগবে?",
+"category": "Personal",
+"visibility": "Public",
+"target": ""
+},
+{
+"id": "kb-1794564235462",
+"question": "তারা কয় ভাই কয় বোন?",
+"keywords": "কয় ভাই, কই বোন, How many brothers, how many sisters, সবার ছোট",
+"answer": "তারা ৩ ভাই, ১ বোন, তিনি পরিবারের ছোট ছেলে।",
+"category": "Personal",
+"visibility": "Public",
+"target": ""
+},
+{
+"id": "kb-1794563952568",
+"question": "তিনি কত সালে হাফেজ হয়েছেন?",
+"keywords": "হাফেজের সাল, হাফেজের তারিখ, of the year, Hafiz",
+"answer": "তিনি হাফেজ হয়েছেন ২০২১ সালে।\nআর কোন প্রশ্ন আছে?",
+"category": "Personal",
+"visibility": "Public",
+"target": ""
+},
+{
+"id": "kb-1794563757676",
+"question": "তৌহিদের বয়স কত?",
+"keywords": "বয়স, জন্ম সাল, তৌহিদ, birth, date, boyes, jormotarek",
+"answer": "বর্তমানে তার বয়স ১৯ বছর, কিছুটা ভুল হতে পারে।\nআর কোন প্রশ্ন আছে?",
+"category": "Personal",
+"visibility": "Public",
+"target": ""
+},
+{
+"id": "kb-1794563429725",
+"question": "তিনি কি প্রেম করেন?",
+"keywords": "প্রেম, ভালোবাসা, love, balovasha, সম্পর্ক",
+"answer": "না, সে কোন মেয়ের সঙ্গে প্রেম করেন না।",
+"category": "Personal",
+"visibility": "Public",
+"target": ""
+},
+{
+"id": "kb-1794550639426",
+"question": "তার মায়ের নাম কি?",
+"keywords": "মা, মাতা, আম্মু, mother, mom",
+"answer": "তৌহিদের মায়ের নাম : আনোয়ারা বেগম, তার মা একজন গৃহিণী, আর কিছু জানতে চান?",
+"category": "Personal",
+"visibility": "Public",
+"target": ""
+},
+{
+"id": "kb-1794550489305",
+"question": "তার বাবার নাম কি?",
+"keywords": "পিতা, বাবা, Father, baba, father, Babar, nam, name",
+"answer": "তৌহিদের বাবার নাম : মোঃ নুরুল আলম।\nআর কিছু জানতে চান?",
+"category": "Personal",
+"visibility": "Public",
+"target": ""
+},
+{
+"id": "kb-1794543587075",
+"question": "তার বাড়ি কোথায়?",
+"keywords": "বাড়ি, ঠিকানা, জায়গা, ঘর, স্থানীয় ঘর, address, tekana",
+"answer": "তিনি বাংলাদেশে বাস করেন, তার বাড়ি : চট্টগ্রাম জেলা, আনোয়ারা থানার, গহিরা, রায়পুরে সাগরের পাশে অবস্থিত। 🏘️",
+"category": "Personal",
+"visibility": "Public",
+"target": ""
+},
+{
+"id": "kb-1794543008607",
+"question": "তিনি কোন মাদ্রাসা থেকে হাফেজ হয়েছেন?",
+"keywords": "মাদরাসা, মাদ্রাসা, হাফেজ হয়েছেন, কোন, জায়গা, মাদ্রাসার নাম",
+"answer": "তিনি সর্বপ্রথম আনোয়ারা বোয়ালিয়া নতুন মাদ্রাসা থেকে নাজরা শেষ করেছেন, এরপর অক্সিজেন রিয়াজুল জান্নাত মডেল মাদ্রাসা থেকে হেফজ শেষ করেছেন, এরপরে আনোয়ারা পীরখাইন মাদ্রাসা থেকে হেফজ সমাপ্তি করেছেন।",
+"category": "Hifz",
+"visibility": "Public",
+"target": ""
+},
+{
+"id": "kb-1",
+"question": "H.M.Towhidul Islam কে?",
+"answer": "হাফেজ মোঃ তোহিদুল ইসলাম (H.M.Towhidul Islam) একজন হাফেজে কুরআন, শিক্ষার্থী, ইসলামি শিল্পী এবং Web Developer। তিনি শিক্ষা, সৃজনশীলতা ও প্রযুক্তির মাধ্যমে কাজ করছেন।",
+"keywords": "কে, পরিচয়, who, towidul, towhidul, about, সম্পর্কে",
+"category": "Personal",
+"visibility": "Public",
+"target": "about"
+},
+{
+"id": "kb-3",
+"question": "তিনি কি হাফেজে কুরআন?",
+"answer": "জি, আলহামদুলিল্লাহ! মোঃ তোহিদুল ইসলাম একজন কুরআনে হাফেজ এবং সুনামধন্য ছাত্র।",
+"keywords": "হাফেজ, কুরআন, হিফজ, hafez, quran, hifz, মাদ্রাসা",
+"category": "Hifz",
+"visibility": "Public",
+"target": ""
+},
+{
+"id": "kb-4",
+"question": "তিনি কী ধরনের Graphic Design করেন?",
+"answer": "তিনি একজন Islamic Artist ও Graphic Designer। তিনি Islamic Calligraphy, Poster, Banner, YouTube Thumbnail এবং Social Media Design করেন।",
+"keywords": "graphic, design, islamic art, calligraphy, poster, ডিজাইন, শিল্পী, artwork",
+"category": "Graphic Design",
+"visibility": "Public",
+"target": "artwork"
+},
+{
+"id": "kb-5",
+"question": "তিনি কি Web Developer?",
+"answer": "হ্যাঁ, তিনি একজন Web Developer। তিনি HTML, CSS, JavaScript, React এবং Tailwind CSS ব্যবহার করে আধুনিক ওয়েবসাইট তৈরি করেন।",
+"keywords": "web, developer, technology, html, css, react, tailwind, website, ওয়েব, ডেভেলপার, projects",
+"category": "Web Development",
+"visibility": "Public",
+"target": "projects"
+},
+{
+"id": "kb-6",
+"question": "তাঁর CV এবং Certificate কোথায়?",
+"answer": "তাঁর ভেরিফাইড CV এবং সার্টিফিকেটসমূহ পোর্টফোলিওর নির্ধারিত সেকশনে সংরক্ষিত রয়েছে।",
+"keywords": "cv, resume, certificate, সার্টিফিকেট, সিভি",
+"category": "CV",
+"visibility": "Public",
+"target": "cv"
+},
+{
+"id": "kb-7",
+"question": "তাঁর ব্যক্তিগত ফোন নম্বর দেন?",
+"answer": "আপনার প্রশ্ন ব্যতীত অন্য কোন কারণে কল দিয়ে ডিস্টার্ব করবেন না প্লিজ। তার ফোন নাম্বার: 01889626880।",
+"keywords": "ফোন, নম্বর, মোবাইল, phone, number, mobile, whatsapp",
+"category": "Personal",
+"visibility": "Public",
+"target": "contact"
+},
+{
+"id": "kb-8",
+"question": "তাঁর Social Media এবং যোগাযোগের মাধ্যম কী?",
+"answer": "আপনি Contact সেকশন থেকে তাঁর অফিসিয়াল Facebook, YouTube, Telegram এবং Email-এর মাধ্যমে যোগাযোগ করতে পারেন। এবং তার নাম্বারে কল দেন: 01889626880।",
+"keywords": "facebook, youtube, telegram, social, media, email, যোগাযোগ, contact",
+"category": "Social Media",
+"visibility": "Public",
+"target": "contact"
+}
+];
 
   const TAI_SUGGESTIONS = [
     "👤 H.M. Towhidul Islam কে?",
